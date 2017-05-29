@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+  <head>
+      <title> About </title>
+  </head>
+
+  <body>
+    <h1>This is about my about page !</h1>
+    <img src="{{ MEDIA_URL }}about.jpg" alt="My about picture" />
+    <br>
+    <p> This tutorial has been put together by Neal </p>
+    <br>
+    <img src="{% static 'img/djangokills.jpg' %}" alt="Kills picture" />
+  </body>
+
+</html>
